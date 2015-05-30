@@ -97,13 +97,10 @@ while ~isempty(email_contents)
     %       str2). It will return 1 only if the two strings are equivalent.
     %
 
-    %lia is boolean variable for element in location A --> (str)
-    %locb is the lowest absolute index of match for B --> (vocabList) 
-    [lia, locb] = ismember(str, vocabList);
 
-    if lia
-       word_indices = [word_indices; locb]; 
-    end
+    []
+
+
 
 
 
