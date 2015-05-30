@@ -11,6 +11,6 @@ yp = - (w(1)*xp + b)/w(2);
 plotData(X, y);
 hold on;
 plot(xp, yp, '-b'); 
-hold off
+hold off;
 
 end
